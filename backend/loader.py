@@ -79,7 +79,7 @@ class Loader:
         self.ws = WSRouter()
 
         server_instance.add_routes([
-            web.get("/socket", self.ws.handle),
+            web.get("/ws", self.ws.handle),
             web.get("/frontend/{path:.*}", self.handle_frontend_assets),
             web.get("/plugins", self.get_plugins),
             web.get("/plugins/{plugin_name}/frontend_bundle", self.handle_frontend_bundle),
