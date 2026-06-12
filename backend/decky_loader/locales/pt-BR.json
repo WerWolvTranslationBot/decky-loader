@@ -52,7 +52,9 @@
     "MultiplePluginsInstallModal": {
         "confirm": "Tem certeza que deseja fazer as seguintes modificações?",
         "description": {
+            "downgrade": "Reverter {{name}} para {{version}}",
             "install": "Instalar {{name}} {{version}}",
+            "overwrite": "Sobrescrever {{name}} por {{version}}",
             "reinstall": "Reinstalar {{name}} {{version}}",
             "update": "Atualizar {{name}} para {{version}}"
         },
@@ -76,9 +78,13 @@
         }
     },
     "PluginCard": {
+        "plugin_downgrade": "Reverter",
         "plugin_full_access": "Este plugin tem acesso total ao seu Steam Deck.",
         "plugin_install": "Instalar",
         "plugin_no_desc": "Nenhuma descrição fornecida.",
+        "plugin_overwrite": "Sobrescrever",
+        "plugin_reinstall": "Reinstalar",
+        "plugin_update": "Atualizar",
         "plugin_version_label": "Versão do plugin"
     },
     "PluginInstallModal": {
@@ -188,7 +194,7 @@
         },
         "notifications": {
             "decky_updates_label": "Atualização do Decky disponível",
-            "header": "Noificações",
+            "header": "Notificações",
             "plugin_updates_label": "Atualizações de Plugin disponíveis"
         },
         "other": {
